@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Images/ff.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.recherche{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 50vh;
+    row-gap: 12vh;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35vh;
+    transform: translateY(-50%);
+    box-shadow: 4px 4px 7px black;
+}
+
+.boutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5vw;
+    margin-bottom: 2vh;
+}
+
+form input{
+    border-style: none;
+}
+
+.bars{
+    height: 7vh;
+    width: 30vw;
+    background-color: gainsboro;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+}
+
+.sub{
+    height: 7vh;
+    width: 20vw;
+    background-color: rgb(15, 11, 11);
+    color: white;
+}
+
+.pageActuel{
+    height: 7vh;
+    width: 5vw;
+    background-color: rgb(15, 11, 11);
+    color: white;
+}
+
+.page{
+    height: 7vh;
+    width: 5vw;
+    background-color:  white;
+    color: rgb(15, 11, 11);
+    border: 1px inset wheat;
+}
+
+.entete{
+    background-color:rgb(15, 11, 11);
+    color: white;
+}
+
+td{
+    width: 20vw;
+    height: 8vh;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.tete{
+    height: 10vh;
+    font-size: 2rem;
+}
+
+.vide{
+    background-color: red;
+}
+
+.close{
+    background-color: gray;
+}
+
+.open{
+    background-color:green;
+}
+
+.caca button{
+    background-color: black;
+    color: red;
+    font-size: 1rem;
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    box-shadow: 5px 5px 7px red;
+}
+
+.caca{
+    position: fixed;
+    top: 1.5vh;
+    right: 0.5vw; 
+}
+
+.error{
+    color: red;
+    font-size: 1.2rem;
+    margin-top: -3vh;
+}
+
+.loglog{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    margin-top: 7vh;
+    display: flex;
+    row-gap: 5vh;
+    flex-direction: column;
+    width: 40vw;
+    height: 30vw;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 7px black;
+    padding-bottom: 8vh;
+}
+
+
+.logl{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    margin-top: 7vh;
+    display: flex;
+    row-gap: 5vh;
+    flex-direction: column;
+    width: 40vw;
+    height: 30vw;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 7px black;
+}
+
+.bien{
+    color: rgb(111, 119, 238);
+    font-size: 7rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4vh;
+}
+
+.bars1{
+    height: 7vh;
+    width: 30vw;
+    background-color: wheat;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-shadow: 4px 0px 5px black;
+
+}
+
+.sub1{
+    height: 7vh;
+    width: 25vw;
+    background: linear-gradient(90deg,   rgb(247, 216, 160)50%, black 50%);
+    background-size: 200%;
+    color: black;
+    font-size: 1.5rem;
+    box-shadow: 4px 0px 5px black;
+}
+
+.sub1:hover{
+    background-position: -100%;
+    transition: all 0.3s ease-in;
+    color:rgb(247, 216, 160);
+}
+
+.cacaca button{
+    height: 7vh;
+    width: 20vw;
+    background-color: rgb(111, 119, 238);
+    color: black;
+    font-size: 1.5rem;
+    border-style: none;
+    box-shadow: 4px 0px 5px black;
+    margin-top: -14vh;
+}
